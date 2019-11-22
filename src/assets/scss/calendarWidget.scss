@@ -1,0 +1,49 @@
+@import "~@fullcalendar/core/main.css";
+@import "~@fullcalendar/daygrid/main.css";
+
+.fc-sat {
+  color: red;
+  font-weight: bold;
+}
+.fc-view-container {
+  position: relative;
+  border: 7px solid white;
+  box-shadow: 1px 1px 5px black;
+}
+
+.fc-content {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.fc-day-grid {
+  font-size: 18px;
+}
+
+.fc-head {
+  font-size: 18px;
+  background-color: #ccc;
+  color: white;
+}
+.tt-calendar-dateNavigation {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  .tt-calendarButton {
+    margin-top: unset !important;
+    margin-left: unset !important;
+  }
+  .tt-calendar-input {
+    padding-left: 10px;
+  }
+}
+.fc-unthemed td.fc-today {
+  background: #ccc;
+}
+.tt-calendarError {
+  color: red;
+  line-height: 0;
+  position: relative;
+  top: 14px;
+}
